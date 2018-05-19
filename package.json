@@ -1,0 +1,22 @@
+{
+  "name": "NoDogLeftBehind",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "jsforce": "^1.8.4",
+    "request": "^2.85.0",
+    "stripe": "^5.8.0"
+  }
+}
